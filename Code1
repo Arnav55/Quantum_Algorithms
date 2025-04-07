@@ -21,3 +21,7 @@ for i, j in G.edges:
 qp.minimize(quadratic=quadratic)
 
 print(qp)
+
+print(oracle.draw())   # Print Oracle
+print(diffuser(2).draw())  # Print Diffuser
+print(grover.draw())   # Print Full Grover Circuit
